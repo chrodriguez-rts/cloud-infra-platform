@@ -1,0 +1,25 @@
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfvars # variable files often contains secrets
+
+# AWS Credentials (never commit these)
+.aws/
+credentials
+*.pem
+*.key
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
