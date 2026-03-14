@@ -45,11 +45,12 @@ terraform apply
 
 # Cost Decisions
 
-Dev environment monthly estimate:
-  t3.micro Spot (1 instance):    ~$3/month
-  Single NAT Gateway:            ~$32/month
-  RDS db.t3.micro:               ~$14/month
-  Total dev:                     ~$49/month
+| Dev environment monthly estimate: |
+|---|---|
+| t3.micro Spot (1 instance): |    ~$3/month  |
+| Single NAT Gateway: |            ~$32/month |
+| RDS db.t3.micro: |               ~$14/month |
+| Total dev: |                     ~$49/month |
 
 Prod environment monthly estimate:
   t3.medium On-Demand (2):       ~$60/month
