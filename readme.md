@@ -45,15 +45,16 @@ terraform apply
 
 # Cost Decisions
 
-| Dev environment monthly estimate: |
+| Dev environment monthly estimate: | Pricing |
 |---|---|
 | t3.micro Spot (1 instance): |    ~$3/month  |
 | Single NAT Gateway: |            ~$32/month |
 | RDS db.t3.micro: |               ~$14/month |
 | Total dev: |                     ~$49/month |
 
-Prod environment monthly estimate:
-  t3.medium On-Demand (2):       ~$60/month
-  NAT Gateway x2:                ~$64/month
-  RDS db.t3.medium Multi-AZ:     ~$97/month
-  Total prod:                    ~$221/month
+| Prod environment monthly estimate: | Pricing |
+|---|---|
+| t3.medium On-Demand (2): |     ~$60/month |
+| NAT Gateway x2: |                ~$64/month |
+| RDS db.t3.medium Multi-AZ: |    ~$97/month |
+| Total prod: |                   ~$221/month |
