@@ -40,7 +40,7 @@ module "compute" {
   max_size           = 2
   use_spot_instances = true    # Dev: spot for 60-70% cost savings
   cpu_target_value   = 60.0
-  admin_cidr_blocks  = ["YOUR_IP/32"]
+  admin_cidr_blocks  = ["192.168.1.111/32"]
   key_name           = "phase1-key"
   ami_id             = data.aws_ami.ubuntu.id
 }
