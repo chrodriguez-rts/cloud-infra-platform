@@ -6,7 +6,7 @@ separation, cost optimization, and security best practices built in.
 
 ## Architecture
 
-[architecture diagram here — draw.io, export as PNG]
+![Test Image 4](docs/architecture.png)
 
 ## What This Deploys
 
