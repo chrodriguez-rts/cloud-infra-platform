@@ -20,12 +20,12 @@ separation, cost optimization, and security best practices built in.
 
 ## Quick Start
 
-\`\`\`bash
+```bash
 cd environments/dev
 terraform init
 terraform plan
 terraform apply
-\`\`\`
+```
 
 ## Environments
 
